@@ -11,7 +11,6 @@ import com.curso.ecommerce.repository.ProductoRepository;
 @Service
 public class ProductoServiceImpl implements ProductoService{
 	
-	/*Esta funcion nos sirve para especificar que estamos inyectando un objeto*/
 	@Autowired
 	private ProductoRepository productoRepository;
 	
